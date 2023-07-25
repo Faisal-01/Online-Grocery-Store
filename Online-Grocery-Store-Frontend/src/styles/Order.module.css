@@ -1,0 +1,16 @@
+.orderNumber, .orderStatus, .orderItemsNumber, .orderAmount,
+.orderDate,
+.icon{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orderStatus{
+    color: var(--color-primary-dark);
+}
+
+.icon{
+    color: var(--color-primary-dark);
+}

@@ -1,0 +1,109 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+}
+
+.title {
+    font-size: 25px;
+}
+
+.categoriesList {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.categoriesList>hr {
+    border: none;
+    border-top: 1px solid #eee;
+}
+
+.category {
+    display: flex;
+    padding: 10px;
+}
+
+.category>h3 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category>p {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+}
+
+.categoryName {
+    justify-content: left !important;
+    
+}
+
+.categoryImage {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconsContainer {
+    flex: 1;
+    /* color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto auto; */
+}
+
+.icon {
+    font-size: 40px;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.option:nth-child(1) {
+    color: green;
+}
+
+.option:nth-child(2) {
+    color: blue;
+}
+
+
+.option:nth-child(2) {
+    border-left: 2px solid lightgrey;
+    border-right: 2px solid lightgrey;
+    font-size: 50px;
+    padding: 0 7px;
+}
+
+.icon:nth-child(3) {
+    color: red;
+}
+
+.searchContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    gap: 5px;
+    align-items: center;
+    color: grey;
+}
+
+.searchContainer>input {
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    color: grey;
+}

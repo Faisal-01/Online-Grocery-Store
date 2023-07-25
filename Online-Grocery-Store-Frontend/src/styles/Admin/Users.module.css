@@ -1,0 +1,67 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+}
+
+.title{
+    font-size: 25px;
+}
+
+.usersList{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.usersList > hr{
+    border: none;
+    border-top: 1px solid #eee;
+}
+
+.user{
+    display: flex;
+    padding: 10px;
+}
+
+.user > h3{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user > p{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+}
+
+.icon{
+    flex: 1;
+    color: red;
+}
+
+.searchContainer{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    gap: 5px;
+    align-items: center;
+    color: grey;
+}
+
+.searchContainer > input{
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    color: grey;
+}

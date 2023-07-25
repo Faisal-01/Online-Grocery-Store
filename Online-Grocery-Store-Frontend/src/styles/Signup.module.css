@@ -1,0 +1,254 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.wrapper{
+    width: 60%;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 14px 0px rgba(0, 17, 89, 0.43);
+        -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 17, 89, 0.43);
+        -moz-box-shadow: 0px 0px 14px 0px rgba(0, 17, 89, 0.43);
+}
+
+.title{
+    color: var(--color-primary-dark);
+    
+}
+
+.subtitle{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.detailsContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.nameContainer{
+    display: flex;
+    gap: 10px;
+}
+
+.firstNameContainer{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+}
+
+.lastNameContainer{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+}
+
+.emailContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.passwordContainer {
+    display: flex;
+    gap: 10px;
+}
+
+.rawPasswordContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+}
+
+.confirmPasswordContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+}
+
+.phoneNumberContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nameContainer input{
+    width: 100%;
+}
+
+.passwordContainer input {
+    width: 100%;
+}
+
+.inputs{
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid lightgrey;
+    padding-left: 10px;
+    font-size: 20px;
+    
+}
+
+.nextButtonContainer{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 0;
+    color: white;
+    background-color: var(--color-primary-dark);
+    padding: 10px 50px;
+    gap: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.nextIcon{
+    font-size: 40px!important;
+}
+
+.nextButton{
+    background-color: var(--color-primary-dark);
+    border: none;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.paymentContainer{
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cardHolderNameContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cardContainer{
+    display: flex;
+    gap: 20px;
+}
+
+.cardNumberContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 2;
+}
+
+.inputs::-webkit-outer-spin-button,
+.inputs::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.inputs[type=number] {
+    -moz-appearance: textfield;
+}
+
+.slashContainer{
+    display: flex;
+    align-items: flex-end;
+}
+
+.slash{
+    font-size: 40px;
+}
+
+.cardCvvContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.expireContainer{
+    display: flex;
+    gap: 10px;
+}
+
+.expireMonthContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.expireYearContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.buttons{
+    margin-left: auto;
+    margin-right: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.button{
+    background-color: var(--color-primary-dark);
+    padding: 10px 30px;
+    color: white;
+    border: none;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.skipButton{
+    
+}
+
+.successContainer{
+    display: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.successContainer a{
+    text-decoration: underline;
+}
+
+.successContainer > p{
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 850px){
+    .wrapper{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .wrapper {
+        width: 100%;
+        margin: 20px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .nameContainer, .passwordContainer{
+        flex-direction: column;
+        
+    }
+}

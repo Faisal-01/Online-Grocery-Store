@@ -1,0 +1,103 @@
+.container{
+    padding: 20px;
+    padding-top: 190px;
+    background-color: white;
+    margin: 0 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title{
+    font-size: 25px;
+}
+
+.productDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.nameContainer, .manufacturerContainer, .imageContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.inputs{
+    height: 50px;
+    border: 1px solid var(--color-primary-dark);
+    border-radius: 5px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.imageLabel{
+    border: 1px solid var(--color-primary-dark);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    flex-direction: column;
+}
+
+.imageIcon{
+    font-size: 90px;
+}
+
+.image{
+    display: none;
+}
+
+.processContainer{
+    background-color: var(--color-primary-light);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.processTitle{
+    font-size: 18px;
+    font-weight: 900;
+    font-family: FontPrimaryLight;
+}
+
+.conditions{
+    margin-top: 10px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.conditions > li{
+    list-style: decimal;
+    font-family: FontPrimaryLight;
+}
+
+.button{
+    font-size: 25px;
+    background-color: var(--color-primary-dark);
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        margin: 0px 100px;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .container {
+        margin: 0px 0px;
+
+    }
+}

@@ -1,0 +1,66 @@
+.container {
+
+    margin: 0px 150px;
+
+    padding-top: 170px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.loader{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ordersContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.orderHeader{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    text-align: center;
+}
+
+.noOrderContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 500px;
+}
+
+.onOrderTitle {
+    font-size: 25px;
+}
+
+.orderContainer {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        margin: 0px 100px;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .container {
+        margin: 0px 0px;
+
+    }
+}

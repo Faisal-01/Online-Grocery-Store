@@ -1,0 +1,50 @@
+@font-face {
+  font-family: FontPrimary;
+  /* src: url("/fonts/Lato-Regular.ttf"); */
+  src: url("/fonts/Roboto-Regular.ttf")
+}
+
+@font-face {
+  font-family: FontPrimaryLight;
+  /* src: url("/fonts/Lato-Light.ttf"); */
+  src: url("/fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+  font-family: FontPrimaryMedium;
+  src: url("/fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-family: FontPrimaryBold;
+  src: url("/fonts/Lato-Bold.ttf");
+}
+
+:root{
+  --color-primary-light: hsl(92, 57%, 71%);
+  /* --color-primary-light:hsl(0, 100%, 93%); */
+  --color-primary-dark: #6FB033;
+  --color-accent: rgb(252, 144, 50);
+  --color-light-pink: hsl(351, 100%, 92%);
+  --color-light-black: rgb(87, 87, 87);
+}
+
+#__next{
+  background-color: #eee;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: FontPrimary;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+li{
+  list-style: none;
+}

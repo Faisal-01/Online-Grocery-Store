@@ -1,0 +1,97 @@
+.itemContainer{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+}
+
+.productContainer{
+    display: flex;
+    gap: 10px;
+
+}
+
+.productDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+}
+
+.oldPrice{
+    font-size: 15px;
+    color: grey;
+}
+
+.productQuantity{
+    font-size: 15px;
+    color: grey;
+}
+
+.productPriceContainer{
+    display: flex;
+    gap: 10px;
+}
+
+.totalPriceContainer{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.productDiscount {
+    padding: 5px 8px;
+    background-color: red;
+    width: max-content;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    visibility: hidden;
+}
+
+.controlsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttonsContainer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.unitAmount{
+    font-size: 25px;
+    color: var(--color-primary-dark);
+}
+
+.addButton, .removeButton{
+    background-color: var(--color-primary-dark);
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.addIcon, .removeIcon{
+    font-size: 30px;
+}
+
+.crossIcon{
+    cursor: pointer;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 480px){
+    .productContainer{
+        flex-direction: column;
+    }
+
+    .buttonsContainer{
+        flex-direction: column;
+    }
+}

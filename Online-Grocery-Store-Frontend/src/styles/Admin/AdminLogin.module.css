@@ -1,0 +1,79 @@
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* height: calc(100vh - 50px); */
+    padding-top: 100px;
+    min-height: 100vh;;
+}
+
+.loginContainer {
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color: white;
+    align-items: center;
+    width: 550px;
+    border-radius: 10px
+}
+
+.inputContainer {
+    display: flex;
+    gap: 10px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+    width: 100%;
+}
+
+.inputContainer input {
+    width: 70%;
+}
+
+.inputContainer label {
+    width: 30%;
+}
+
+.emailContainer {
+    display: flex;
+}
+
+.passwordContainer {
+    display: flex;
+}
+
+.container label {
+    font-size: 20px;
+}
+
+.container input {
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+.button {
+    border: none;
+    background-color: rgb(103, 103, 255);
+    /* background-color: rgb(140, 140, 255); */
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+.signupContainer {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+
+}
+
+.signupContainer>a {
+    color: grey;
+}

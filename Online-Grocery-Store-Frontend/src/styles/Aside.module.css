@@ -1,0 +1,60 @@
+.aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    opacity: 0;
+    transition: transform .5s linear, opacity .5s linear;
+    height: 100vh;
+    /* background-color: var(--color-primary-light);
+     */
+     background-color: white;
+    transform: translateX(-300px);
+    z-index: 4;
+    border-right: 1px solid black;
+}
+
+.show {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.title{
+    margin: 20px;
+    text-transform: capitalize;
+}
+
+.options{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.option{
+    list-style: none;
+    font-size: 20px;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 10px;
+    color: black;
+}
+
+.optionLink{
+    display: flex;
+    gap: 10px;
+}
+
+.optionLinkButton{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* .optionName{
+    color: white;
+} */
+
+.icons{
+    color: var(--color-primary-dark);
+}

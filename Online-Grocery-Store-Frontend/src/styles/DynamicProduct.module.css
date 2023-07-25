@@ -1,0 +1,98 @@
+.relatedProductsContainer {
+    margin: 0px 150px;
+    margin-top: 10px;
+    /* height: 500px; */
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.relatedProductsTitle {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.relatedProductsContainer:hover .scrollButton {
+    display: flex;
+}
+
+.relatedProductsList {
+
+    display: flex;
+    overflow-x: scroll;
+    height: 100%;
+    gap: 10px;
+    scroll-behavior: smooth;
+    padding-bottom: 20px;
+}
+
+.relatedProductsList::-webkit-scrollbar {
+    height: 10px;
+
+}
+
+.relatedProductsList::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+
+.relatedProductsList::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+.relatedProductsList::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.relatedProductsList:hover .scrollButton {
+    display: flex;
+}
+
+.relatedProductsItem {
+    display: flex;
+    border: 1px solid lightgrey;
+}
+
+.scrollButton {
+    background-color: white;
+    border: none;
+    padding: 10px 5px;
+    color: black;
+    display: none;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.buttonLeft {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    box-shadow: 3px 1px 10px -5px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 3px 1px 10px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 1px 10px -5px rgba(0, 0, 0, 0.75);
+}
+
+.buttonRight {
+    position: absolute;
+    top: 40%;
+    right: 0;
+    box-shadow: 1px 3px 10px -5px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 3px 10px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 3px 10px -5px rgba(0, 0, 0, 0.75);
+}
+
+@media only screen and (max-width: 1200px) {
+    .relatedProductsContainer {
+        margin: 0px 100px;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .relatedProductsContainer {
+        margin: 10px 0px;
+
+    }
+}
